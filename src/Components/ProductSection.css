@@ -1,0 +1,35 @@
+/* src/components/ProductShowcase.css */
+.product-showcase {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
